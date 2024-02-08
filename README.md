@@ -12,3 +12,6 @@ Some screenshots of sample dashboard is shown below:
 
 ![Screenshot 2024-02-08 223611](https://github.com/nimmigopan/DLD_real_estate_data_dashboard/assets/35449494/33c378d9-7482-4fc0-b2f4-f941fcd0e22c)
 
+![Screenshot 2024-02-09 000311](https://github.com/nimmigopan/DLD_real_estate_data_dashboard/assets/35449494/fced8ba1-a592-4e7f-8e37-64fa0ca768e9)
+
+
