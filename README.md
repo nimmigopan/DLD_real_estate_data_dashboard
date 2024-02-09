@@ -36,6 +36,7 @@ location, involved parties etc Here's a summary:
 
 
 A python script is written to web scrape data from 'Dubai Land Department- Real Estate Data' web page.
+'Selenium' is used to automate interactions with web page.
 
 
 "transaction_24.csv" saved to mysql database under 'dld_data' schema.
