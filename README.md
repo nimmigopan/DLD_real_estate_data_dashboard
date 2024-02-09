@@ -28,7 +28,7 @@ location, involved parties etc Here's a summary:
 
 
 A python script is written to web scrape data from 'Dubai Land Department- Real Estate Data' web page.
-'Selenium' is used to automate interactions with web page. But i got stuck at a pagination error and couldn't scrape entire data.
+**Selenium** is used to automate interactions with web page. But due to pagination error, i couldn't scrape entire data.
 So csv file is downloaded from site.
 
 "transaction_24.csv" saved to mysql database under 'dld_data' schema.
