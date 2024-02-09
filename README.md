@@ -1,17 +1,9 @@
 # DLD_real_estate_data_dashboard
 
-1. "transaction.csv" contain contain transaction details from year 1995 onwards with 1159487 rows. Data is sorted between 2015 - 2023 to 706270 rows.
-2. "transaction_24.csv" contain transaction details in the year 2024.
+1. "transaction.csv" contain transaction details from year 1995 onwards with 1159487 rows. Data is filtered to transaction details between 2015 - 2023 having 706270 rows.
+2. "transaction_24.csv" contain transaction details of year 2024.
 
-
-
-
-
-
-
-
-
-some sample data for dataset "transactions.csv" is shown below:
+some sample data in the  dataset "transactions.csv" is shown below:
 ![sample data](https://github.com/nimmigopan/DLD_real_estate_data_dashboard/assets/35449494/ac1f4aa5-2bab-4609-8f44-c39ed5968661)
 
 The dataset contain information about various real estate transactions in Dubai, including transaction id, date, transaction type & subtype, property details, transaction amount,
@@ -36,8 +28,8 @@ location, involved parties etc Here's a summary:
 
 
 A python script is written to web scrape data from 'Dubai Land Department- Real Estate Data' web page.
-'Selenium' is used to automate interactions with web page.
-
+'Selenium' is used to automate interactions with web page. But i got stuck at a pagination error and couldn't scrape entire data.
+So csv file is downloaded from site.
 
 "transaction_24.csv" saved to mysql database under 'dld_data' schema.
 Data stored in database is accessed to power BI, performed data cleaning, preprocessing, analysis and dashboard is built.
